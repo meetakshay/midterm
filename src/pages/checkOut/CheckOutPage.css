@@ -1,0 +1,75 @@
+
+
+
+.checkout{
+position: relative;
+height: 90vh;
+}
+
+.congratsImage{
+    height: 100%;
+    
+}
+.congratsImage img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+.checkOutInfo{
+position: absolute;
+top: 25%;
+left: 50%;
+transform: translate(-50%);
+color: white;
+font-weight: 600;
+font-size: 1.5rem;
+text-align: center;
+}
+.congratulationsPara{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom:2rem ;
+ 
+}
+.checkOutInfo  .para1{
+margin-bottom: 2rem;
+color: greenyellow;
+}
+.checkOutInfo  .para2{
+color: rgba(255, 255, 255, 0.661);
+font-size: 1.1rem;
+}
+
+@media screen and (max-width:550px) {
+    .checkout{
+        height: 84vh;
+    }
+    .checkOutInfo{
+        width: 100%;
+        margin-top: 3rem;
+        padding: 0 1rem;
+
+    }
+    .congratulationsPara{
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin-bottom:2rem ;
+
+    }
+    .checkOutInfo  .para1{
+        font-size: 0.8rem;
+        margin-bottom: 0rem;
+        color: greenyellow;
+        font-weight: 500;
+        }
+        .checkOutInfo  .para2{
+        margin-top: 2rem;
+        color: rgba(255, 255, 255, 0.661);
+        font-size: 1.1rem;
+        border-top: 1px solid rgb(255, 205, 3);
+        border-bottom: 1px solid rgb(255, 205, 3);
+        padding: 1rem 0;
+        }
+}

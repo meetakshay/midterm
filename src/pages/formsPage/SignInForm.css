@@ -1,0 +1,57 @@
+
+form {
+    max-width: 400px;
+    margin: 100px  auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+
+  .loginHeading {
+    font-size: 1.7rem;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  div[style^="color: red"] {
+    margin-top: -8px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .forSignUp{
+    font-size: 14px;
+    margin-top: 1rem;
+    text-align: center;
+    color: gray;
+  }
+  
+  @media screen and (max-width: 600px) {
+    form {
+      max-width: 100%;
+    }
+  }
+  

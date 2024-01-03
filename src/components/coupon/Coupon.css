@@ -1,0 +1,31 @@
+
+.coupon{
+    height: 270px;
+    display: flex;
+    flex-direction: row;
+}
+
+.coupon-left-banner{
+    background-color: rgb(62, 62, 62);
+    writing-mode:vertical-lr ;
+    padding:  1.6rem 1rem ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    width: 60px;
+}
+.coupon-right-banner{
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+
+}
+
+.coupon-offer-left{
+/* display: inline; */
+}

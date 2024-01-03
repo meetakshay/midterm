@@ -1,0 +1,137 @@
+.red{
+  color: red;
+}
+
+.productCard {
+    border: 1px solid #ddd; 
+    padding: 16px;
+    margin: 16px;
+    width: 300px; 
+    text-align: center;
+    transition: transform 0.3s ease; 
+    position: relative;
+}
+  
+    .productCard img {
+      width: 100%;
+      height: 280px;
+      border-radius: 8px;
+      object-fit: contain;
+    }
+  
+    .productCard h3 {
+      margin-top: 8px;
+      font-size: 1.2rem;
+      color: #333;
+    }
+
+  
+  .productCard p {
+    margin-top: 8px;
+    font-size: 1rem;
+    color: #555;
+  }
+  .productCard p.price {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+    color: #f00; 
+    font-weight: bold;
+  }
+  .productCard:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  .productCard .productBtn{
+    padding: 10px 30px;
+    background-color: rgb(0, 0, 0);
+    display: block;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  /* =================================WishList button ================  */
+  .wishListPage .wishListBtn{
+    display: none;
+  }
+  .wishListBtn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.4rem;
+    color: rgba(128, 128, 128, 0.308);
+  }
+  .wishListBtn:hover{
+    color: rgba(255, 0, 0, 0.308);
+  }
+.fa-heart .wishListactive{
+  color: red;
+}
+
+
+  @media screen and (max-width:768px) {
+    
+.productCard {
+
+  width: 300px; 
+  height: auto;
+  text-align: center;
+  transition: transform 0.3s ease; 
+}
+
+  .productCard img {
+    width: 100%;
+    height: 280px;
+    border-radius: 8px;
+  }
+
+  .productCard h3 {
+    margin-top: 8px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+
+
+.productCard p {
+  margin-top: 8px;
+  font-size: 1rem;
+  color: #555;
+}
+.productCard p.price {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+  color: #f00; 
+  font-weight: bold;
+}
+.productCard:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+
+}
+.productCard .productBtn:hover{
+  background-color: #4caf50;
+
+}
+
+  }
+
+
+  @media screen and (max-width:768px) {
+.productCard {
+  border: 1px solid #ddd; 
+  padding: 16px;
+  margin: 16px;
+  width: 280px; 
+  text-align: center;
+  transition: transform 0.3s ease; 
+}
+
+  .productCard img {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    
+  } 
+  }

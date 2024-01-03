@@ -1,0 +1,29 @@
+
+
+
+
+.aboutBanner{
+    width: 100%;
+    position: relative;
+}
+.aboutBannerImage{
+    position: relative;
+}
+.aboutBannerImage img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+.aboutBannerOverlay{
+    position: absolute;
+    top: 34%;
+    left: 84%;
+    transform: translate(-50%);
+}
+.aboutBannerHeading{
+   font-size: 9rem;
+   color: rgb(255, 0, 0);
+   -webkit-text-stroke: 2px black;
+   filter: drop-shadow(1px 1px 4px  rgb(0, 0, 0));
+}
