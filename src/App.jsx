@@ -14,6 +14,7 @@ import SignUpForm from './pages/formsPage/SignUpForm'
 import SignInForm from './pages/formsPage/SignInForm'
 import CheckOutPage from './pages/checkOut/CheckOutPage'
 import Coupon from './components/coupon/Coupon'
+import NotFound from './pages/notFound/NotFound'
 
 
 
@@ -38,6 +39,7 @@ function App() {
       <Route path='/signup'  element={<SignUpForm />} />
       <Route path='/signin'  element={<SignInForm />} />
       <Route path='/checkout'  element={<CheckOutPage />} />
+      <Route path='/*'  element={<NotFound />} />
 
     
     </Route>

@@ -3,7 +3,7 @@
 
 import { createSlice } from "@reduxjs/toolkit";
 
-const FORM_KEY = "reduxState"
+const FORM_KEY = "FormSlice"
 
 const loadState = () => {
     try{

@@ -1,9 +1,9 @@
 
 import { createSlice } from "@reduxjs/toolkit";
 
-const LOCAL_CART = 'reduxState';  
+const LOCAL_CART = 'CartSlice';     //confusing ****
 
-const loadState = () => {
+const loadState = () => {   //GET
   try{
     const cart = localStorage.getItem(LOCAL_CART);
     if(cart === null){
@@ -15,7 +15,7 @@ const loadState = () => {
   }
 }
 
-const saveState = (state) => {
+const saveState = (state) => {   //SET
   try{
     const cart = JSON.stringify(state);
     localStorage.setItem(LOCAL_CART, cart)

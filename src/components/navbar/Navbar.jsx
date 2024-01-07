@@ -78,12 +78,10 @@ const Navbar = (props) => {
                   className="navSignInBtn"
                   onClick={handleLogout}
                 >
-                  <i className="fa-solid fa-right-to-bracket lg-arrow arrowClass"></i>
                   Logout
                 </Link>
               ) : (
                 <Link to="/signin" className="navSignInBtn">
-                  <i className="fa-solid fa-right-to-bracket lg-arrow arrowClass"></i>
                   Login
                 </Link>
               )}

@@ -50,11 +50,12 @@
 } */
 .wishList-cart .fa-heart{
     color: rgb(255, 1, 1);
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 .wishList-cart .fa-cart-arrow-down{
-    color: rgba(2, 0, 3, 0.86);
-    font-size: 1.8rem;
+    color: rgba(0, 4, 255, 0.86);
+    font-size: 1.5rem;
+    
 
 }
 
@@ -115,9 +116,7 @@ button:hover{
 .menu-icons{
     display: none;
 }
-.arrowClass{
-    margin-right: 10px;
-}
+
 
 @media screen and (max-width:914px) {
     .menu-icons{

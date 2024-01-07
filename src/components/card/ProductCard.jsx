@@ -41,7 +41,7 @@ const ProductCard = (props) => {
     <div className="productCard" key={id}>
 
       <Link to={"/products/details/" + id}>
-        <img src={image} alt={title} />
+        <img src={image} alt={title} /> 
       </Link>
       <h3>{title.slice(0, 20)}</h3>
       <p>{description.slice(0, 20)}...</p>
